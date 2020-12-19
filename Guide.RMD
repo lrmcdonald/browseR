@@ -3,8 +3,12 @@ title: "Guide to Building this Package"
 author: "Luke McDonald"
 date: "12/18/2020"
 output:
-  rmarkdown::html_document:
-    theme: lumen
+  html_document:
+       toc: true
+       toc_depth: 6
+       toc_float:
+          collapsed: false
+          smooth_scroll: false
 ---
 
 ```{r setup, include=FALSE}
@@ -13,14 +17,17 @@ knitr::opts_chunk$set(echo = T, message=F, warning=F, error=F,
                       fig.align='center', out.width='75%', fig.asp=.75)
 ```
 
+# Hello World!
 
-##### To understand Rmarkdown, go here: 
+This document is intended to keep track of my references and functions (hopefully I keep it up).
 
+#### References:
+
+[learnR](http://learnr.usu.edu/)
 [Introduction to Rmarkdown](https://m-clark.github.io/Introduction-to-Rmarkdown/common-considerations.html)
 [R Packages](https://r-pkgs.org/index.html)
 
-##### Common packages used or referenced:
-
+##### Packages:
 * [tidyverse](https://www.tidyverse.org/)
 * [sf](https://r-spatial.github.io/sf/)
 * [amt](https://www.rdocumentation.org/packages/amt)
