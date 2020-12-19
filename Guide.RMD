@@ -1,0 +1,35 @@
+---
+title: "Guide to Building this Package"
+author: "Luke McDonald"
+date: "12/18/2020"
+output:
+  rmarkdown::html_document:
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, message=F, warning=F, error=F, 
+                      comment=NA, cache=T, R.options=list(width=220), 
+                      fig.align='center', out.width='75%', fig.asp=.75)
+```
+
+
+##### To understand Rmarkdown, go here: 
+
+[Introduction to Rmarkdown](https://m-clark.github.io/Introduction-to-Rmarkdown/common-considerations.html)
+[R Packages](https://r-pkgs.org/index.html)
+
+##### Common packages used or referenced:
+
+* [tidyverse](https://www.tidyverse.org/)
+* [sf](https://r-spatial.github.io/sf/)
+* [amt](https://www.rdocumentation.org/packages/amt)
+* [ade4](https://www.rdocumentation.org/packages/ade4)
+* [rgee](https://csaybar.github.io/rgee-examples/)
+* [tictoc](https://cran.r-project.org/web/packages/tictoc/tictoc.pdf)
+
+
+
+
+
+
